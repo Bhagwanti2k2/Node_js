@@ -10,6 +10,16 @@ http.createServer().listen(8080);
 After that file is read using the fs.readFile() . The file that you want to read is passed as parameter to this function.If the 
 user wants to send the file in html format then resp.writeHead(status , content -type) is given.After that the data is sent 
 using the res.write().
+Steps for fetching the data-:
+     Step 1: Create a file in which you want to fetch data of another file.
+     Step 2 : Load the fs module using require() method.
+     Step 3: Load the HTTP module.
+     Step 4. Set the status of http module using res.writeHead()
+     Step 5: Use the res.write() function to send the data.
+     Step 6: Create an http server that listen to server ports.
+
+     
+
 
 
 
